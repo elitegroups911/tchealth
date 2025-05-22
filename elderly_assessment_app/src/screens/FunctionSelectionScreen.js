@@ -9,7 +9,7 @@ const FunctionSelectionScreen = ({ navigation }) => {
       <View style={styles.buttonContainer}>
         <Button 
           title="老年人能力评估 (GB/T42195-2022)" 
-          onPress={() => navigation.navigate('Assessment')} 
+          onPress={() => navigation.navigate('AssessmentLanding')} 
         />
       </View>
       <View style={styles.buttonContainer}>
